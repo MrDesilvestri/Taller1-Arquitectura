@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class EventoController {
 
     Logger log = LoggerFactory.getLogger(getClass());
-
+ 
     @Autowired
     EventoRepository eventoRepository;
 
