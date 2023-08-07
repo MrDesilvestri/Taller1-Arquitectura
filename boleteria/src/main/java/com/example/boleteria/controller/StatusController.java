@@ -29,4 +29,5 @@ public class StatusController{
     ResponseEntity<?> getStatusInfo() {
         return ResponseEntity.status(HttpStatus.OK).body("1:true");
     }
+    
 }

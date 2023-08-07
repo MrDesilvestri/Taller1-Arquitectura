@@ -8,3 +8,4 @@ import com.example.boleteria.model.Status;
 public interface StatusRepository extends JpaRepository<Status, Long> {
     
 }
+

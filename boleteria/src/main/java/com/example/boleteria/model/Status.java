@@ -16,6 +16,7 @@ public class Status {
     public Status() {
     }
 
+    
     public Status(boolean status) {
         this.status = status;
     }
