@@ -6,6 +6,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+
 @Controller
 @RequestMapping("/boleta")
 public class BoletaController {
@@ -14,6 +15,8 @@ public class BoletaController {
 
     @GetMapping("/find-all")
     String findAll(){
-        return "boleta-list";
+        return "data";
     }
+
+    
 }
